@@ -66,7 +66,7 @@ const movies = {
 };
 
 export default function App() {
-  const [movie, setMovie] = useState([]);
+  const [movie, setMovie] = useState(movies.Scifi);
 
   function showMovies(genre) {
     setMovie(movies[genre]);
